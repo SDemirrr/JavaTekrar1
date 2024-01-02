@@ -15,10 +15,12 @@ public class C01_Variables {
         not2=90;
 
 
-        //yeni bir int olusturalim degeri ilk iki variblenin ortalamasi olsun
+        //yeni bir int olusturalim degeri ilk iki variablenin ortalamasi olsun
 
         int ortalama=(not+not2)/2;
         System.out.println("iki notun ortalamasi : "+ortalama);
+
+
 
 
     }
