@@ -8,6 +8,7 @@ public class C03_RakamlarToplami {
         Scanner scan=new Scanner(System.in);
         System.out.println("dort basamakli bir tamsayi giriniz");
         int sayi=scan.nextInt();
+        int ilkSayi=sayi;
         int birlerBasamagi=0;
         int rakamlarToplami=0;
 
@@ -24,7 +25,7 @@ public class C03_RakamlarToplami {
         rakamlarToplami+=birlerBasamagi;
 
 
-        System.out.println("rakamlar toplam = "+rakamlarToplami);
+        System.out.println(ilkSayi+" sayisinin rakamlar toplam = "+rakamlarToplami);
 
 
 
